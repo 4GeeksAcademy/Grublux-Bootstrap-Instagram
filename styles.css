@@ -8,3 +8,12 @@
     margin-top: 15px; 
    
 }
+
+ .nav-pills .nav-link.active {
+    background-color: white;
+    color: blue;
+}
+
+.nav-pills .nav-link {
+    color: gray;
+}

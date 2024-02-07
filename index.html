@@ -16,7 +16,9 @@
   <body>
     <div class="container">
         <div class="row bg-light">
-            <div class="col-2 ml-1"><i class="fa-brands fa-instagram"></i>Instagram</div>
+            <div class="col-2 ml-1"><i class="fab fa-instagram larger-logo"></i>
+            <a class="navbar-brand" style="color:black;">Instagram</a>
+        </div>
             <div class="col"></div>
             <div class="col-2">
                                 <!-- Button trigger modal -->
@@ -37,11 +39,12 @@
                         <div class="modal-body">
                         Caption:
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" type="text" placeholder="Add the caption of your post here"></textarea>
-                        <div class="row">    
+                        </div> 
+                        <div class="modal-body">    
                                 <div class="col-1 bg-light border"><i class="fa-solid fa-camera"></i></div>
                                 <div class="col-1 bg-light"><i class="fa-solid fa-camera"></i></div>
                             </div>
-                        </div>
+                        
                         
                         <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -61,7 +64,7 @@
                       <a class="dropdown-item" href="#">Accesibility</a>
                       <a class="dropdown-item" href="#">Privacy and Data</a>
                       <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Logout</a>
+                        <a class="dropdown-item text-danger" href="#">Log out</a>
                     </div>
                   </div>
             </div>
@@ -107,9 +110,8 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                            <div class="row">
-                                <div class="col"></div>
-                                <div class="col-6 d-flex justify-content-center">
+                            <div class="row mb-3">
+                                <div class="col d-flex justify-content-center">
                                     <div class="card" style="width: 500px;">
                                         <div class="card-header">
                                             <div class="row">
@@ -126,11 +128,9 @@
                                     </div>
                                                                         
                                 </div>
-                                <div class="col"></div>
                             </div>
-                            <div class="row">
-                                <div class="col"></div>
-                                <div class="col-6 d-flex justify-content-center">
+                            <div class="row mb-3">
+                                <div class="col d-flex justify-content-center">
                                     <div class="card" style="width: 500px;">
                                         <div class="card-header">
                                             <div class="row">
@@ -147,9 +147,27 @@
                                     </div>
                                                                         
                                 </div>
-                                <div class="col"></div>
                             </div>
-                            <div class="row">
+                            <div class="row mb-3">
+                                <div class="col d-flex justify-content-center">
+                                    <div class="card" style="width: 500px;">
+                                        <div class="card-header">
+                                            <div class="row">
+                                                <div class="col-8">Featured</div>
+                                                <div class="col"></div>
+                                                <div class="col-3 d-flex justify-content-end">12/22</div>
+                                            </div>
+                                        </div>
+                                        <img src="https://cdn.pixabay.com/photo/2023/07/28/20/36/flower-8155951_1280.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                        <h5 class="card-title">204 likes</h5>
+                                        <p class="card-text">What a fancy photo we have here!</p>
+                                        </div>
+                                    </div>
+                                                                        
+                                </div>
+                            </div>
+                            <div class="row mb-3">
                                 <div class="col d-flex justify-content-center">
                                     <div class="card" style="width: 500px;">
                                         <div class="card-header">
